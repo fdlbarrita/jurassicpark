@@ -1,0 +1,25 @@
+div.left{
+position: fixed;
+left:0;
+top:0;
+width: 20vw;
+background-color: black;
+height: 100vh;
+}
+
+div.right{
+  float: right;
+  width: 80vw;
+  min-height: 100vh;
+  background-image: url("../img/trex.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: cover;
+
+
+
+}
+div.left img{
+  width:100%;
+}
