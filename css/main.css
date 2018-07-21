@@ -1,6 +1,9 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Bungee Inline', cursive;
+  height: 100vh;
+  overflow: hidden;
 }
 
 iframe {
@@ -8,6 +11,18 @@ iframe {
   margin: auto;
   width: 80%;
   height: 60vh;
+}
+
+button.mybutton {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #EC3D30;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.3rem;
+  font-family: 'Bungee Inline', cursive;
+
 }
 
 
@@ -18,6 +33,7 @@ top:0;
 width: 20vw;
 background-color: black;
 height: 100vh;
+border-right: 3px solid #EC3D30;
 }
 
 div.left ul{
@@ -46,7 +62,6 @@ text-shadow: 0 0 10px white, 0 0 25px white, 0 0 50px white;
 div.right{
   float: right;
   width: 80vw;
-  min-height: 100vh;
   background-image: url("../img/trex.jpg");
   background-position: right;
   background-size: cover;
@@ -55,6 +70,25 @@ div.right{
 
 
 
+}
+div.right p, div.right ul, div.right ul li, div.right h4 {
+  list-style-type: none;
+  line-height: 1.5em;
+  font-size: 1.3rem;
+  padding: 0 50px;
+}
+
+div.right h4 a {
+  color: white;
+  text-decoration: none;
+}
+div.right h1{
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+div.right p{
+  font-family: initial;
 }
 div.left img{
   width:100%;
